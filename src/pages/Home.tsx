@@ -34,7 +34,7 @@ const Home = () => {
               </p>
               <div className="flex gap-4">
                 <Button size="lg" asChild>
-                  <a href="#test">Take Assessment</a>
+                  <a href="/auth">Get Started</a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="#pcos-info">Learn More</a>
@@ -108,9 +108,11 @@ const Home = () => {
                 Our comprehensive AI-powered assessment takes just 5 minutes and provides personalized insights about your PCOS risk and management strategies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button size="lg" className="group">
-                  Start Assessment
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <Button size="lg" className="group" asChild>
+                  <a href="/auth">
+                    Start Assessment
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
                 <p className="text-sm text-muted-foreground">Free • Confidential • Evidence-based</p>
               </div>
