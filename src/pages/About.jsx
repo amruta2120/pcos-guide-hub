@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Users, Sparkles, Shield } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar.jsx";
+import Footer from "@/components/Footer.jsx";
 
 const About = () => {
   return (

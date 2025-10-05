@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/accordion";
 import { Activity, Heart, Brain, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar.jsx";
+import Footer from "@/components/Footer.jsx";
 
 const Home = () => {
   return (

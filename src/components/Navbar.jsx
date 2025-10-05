@@ -5,7 +5,7 @@ import { Heart } from "lucide-react";
 const Navbar = () => {
   const location = useLocation();
   
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path) => location.pathname === path;
   
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-lg">
