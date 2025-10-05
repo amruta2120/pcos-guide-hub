@@ -12,7 +12,7 @@ const Auth = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleAuth = (e: React.FormEvent) => {
+  const handleAuth = (e) => {
     e.preventDefault();
     
     if (!email || !password) {
